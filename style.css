@@ -25,6 +25,7 @@ body {
     background-color: rgba(187, 108, 240, 0.5);
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    align-items: center;
   }
 
   #introTextBox {
@@ -44,6 +45,7 @@ body {
     background-color: rgba(37, 176, 155, 0.6);
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    align-items: center;
   }
 
   #intro2TextBox {
@@ -66,12 +68,14 @@ body {
     color: white;
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    align-items: center;
   }
   
   #latest {
     background-color: #F6F5F7;
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    align-items: center;
   }
   
   #cta {
@@ -80,6 +84,7 @@ body {
    height: 300px;
    padding: 50px;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   align-items: center;
   }
 
   #ctaTextBox {
