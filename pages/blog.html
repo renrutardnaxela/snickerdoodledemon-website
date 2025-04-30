@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Tab Title-->
-    <title>SnickerdoodleDemon - About Me</title>
+    <title>SnickerdoodleDemon - Blog</title>
 
     <!-- Bootstrap CSS-->
     <link
@@ -55,14 +55,40 @@
     </header>
 
     <!--Page Title-->
-    <section id="blog-title" style="background-color: azure; color: black; display: flex; justify-content: center; padding: 2rem;">
-      <h1>My Blog!</h1>
+    <section id="cardTitleTextBox">
+      <h1>The Blog Archives!</h1>
     </section>
 
-    <!--Call to Action Section-->
-    <div id="cta" class="row">
-      <h2>Interested to find out if I ever finish any of these projects? Follow me on Neocities!</h2>
-    </div>
+    <!--The Posts-->
+    <section style="background-color: rgba(187, 108, 240, 0.5);" class="container-fluid">
+      <section class="row">
+          <section class="col-auto col-md-6 col-xl-4" style="display: flex; justify-content: center; padding: 3rem;">
+              <!--Card One-->
+              <div class="card" style="max-width: fit-content;">
+                  <a href="#" style="display: flex; justify-content: center;"><img class="card-img-top" src="../assets/placeholder.png" alt="a black square" style="max-height: 20rem; max-width: fit-content; object-fit: scale-down;"></a>
+                  <div class="card-body">
+                      <h5 class="card-title">Post Title</h5>
+                      <p class="card-text">Post Synopsis</p>
+                      <a href="#" class="card-link">Read More!</a>
+                  </div>
+              </div>
+          </section>
+          <section class="col-auto col-md-6 col-xl-4" style="display: flex; justify-content: center; padding: 3rem;">
+              <!--Card Two-->
+          </section>
+          <section class="col-auto col-md-6 col-xl-4" style="display: flex; justify-content: center; padding: 3rem;">
+              <!--Card Three-->
+          </section>
+      </section>
+    </section>
+
+      <!--Call to Action Section-->
+      <section class="container-fluid">
+        <div id="cta" class="row">
+          <h2 id="ctaTextBox">Interested to find out if I ever finish any of these projects? Follow me on Neocities!</h2>
+        </div>
+      </section>
+      
   
     <!--Footer-->
     <footer class="row" id="footer">
