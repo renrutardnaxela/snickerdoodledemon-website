@@ -4,11 +4,8 @@ body {
     font-family: "Trebuchet MS", sans-serif;
   }
     
-  #header {
+  header {
     background-color: #19191A;
-    color: white;
-    height: 120px;
-    padding: 10px;
   }
   
   #hero {
@@ -16,11 +13,25 @@ body {
    background-size: cover;
    height: 700px;
   }
+
+  #heroTextBox {
+    background-color: lavender; 
+    padding: 2rem;
+    border: 2px solid black;
+    text-align: center;
+  }
   
   #intro {
     background-color: rgba(187, 108, 240, 0.5);
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  #introTextBox {
+    padding: 2rem;
+    background-color: lavender;
+    border: 2px solid black;
+    text-align: center;
   }
   
   /* 
@@ -33,6 +44,21 @@ body {
     background-color: rgba(37, 176, 155, 0.6);
     padding: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  #intro2TextBox {
+    padding: 2rem;
+    background-color: lavender;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  #cardTitleTextBox {
+    padding: 2rem;
+    background-color: lavender;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
   }
   
   #projects {
@@ -55,11 +81,28 @@ body {
    padding: 50px;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
+
+  #ctaTextBox {
+    padding: 2rem;
+    background-color: lavender;
+    border: 2px solid black;
+    text-align: center;
+  }
   
   #footer {
     background-color: #19191A;
     color: white;
     height: 150px;
     padding: 10px;
+  }
+
+  #quote {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #links {
+    justify-content: center;
+    text-align: center;
   }
   
