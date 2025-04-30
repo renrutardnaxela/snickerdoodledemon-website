@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+    
+  #header {
+    background-color: #19191A;
+    color: white;
+    height: 120px;
+    padding: 10px;
+  }
+  
+  #hero {
+   background-image: url("./assets/hero.jpg");
+   background-size: cover;
+   height: 700px;
+  }
+  
+  #intro {
+    background-color: rgba(187, 108, 240, 0.5);
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  /* 
+    reasons {
+    background-color: #F6F5F7;
+    height: 300px;
+  } */
+  
+  #intro2 {
+    background-color: rgba(37, 176, 155, 0.6);
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  #projects {
+    background-color: #19191A;
+    color: white;
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  #latest {
+    background-color: #F6F5F7;
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  #cta {
+   background-image: url("./assets/desk.jpg"); 
+   background-size: cover;
+   height: 300px;
+   padding: 50px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  #footer {
+    background-color: #19191A;
+    color: white;
+    height: 150px;
+    padding: 10px;
+  }
+  
